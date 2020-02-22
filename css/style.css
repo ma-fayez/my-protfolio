@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    
+}
+h1{
+    font-size: 50px;
+}
+.name-highlight{
+    color: orange;
+    padding-top: 20px;
+}
+h3{
+    margin-top: 10%;
+}
+p{
+    text-align: justify;
+    margin-top: 5%;
+}
+.width{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    margin-top: 10px;
+}
+.width img{
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 0pc;
+}
+.banner{
+    background-image: url('../images/top-banner.png');
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+}
+.button{
+    text-decoration: none;
+    background-image: linear-gradient(lightsalmon, tomato);
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: 800;
+    color: #ffffff;
+    margin-top: 15px;
+}
+.dream-area{
+    background-image: url('../images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.ex-area{
+    background-image: url('../images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.ex-area .experance{
+    background-color: darkcyan;
+    width: 200px;
+    padding: 15px;
+    color: #ffffff;
+    border-right: 7px solid orange;
+    border-left: 7px solid orange;
+    border-radius: 50px;
+    text-align: center;
+    margin-left: 45%;
+    margin-bottom: 15px;
+}
+.single-ex{
+    box-shadow: 10px 20px 40px grey;
+    border-radius: 10px;
+    height: 70%;
+
+}
+.single-ex h2{
+    margin-top: 30px;
+}
+.single-ex p{
+    padding-right: 25px;
+}
+#full-stack{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice : 1;
+}
+#baby-web{
+    border-left: 8px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice : 1;
+}
+
+/*contact us start*/
+article{
+    width: 90%;
+    margin-left: 5%;
+    margin-top: 10%;
+}
+
+.contact-header{
+    width: 100%;
+    float: left;
+    
+}
+.contact-header h1{
+    background-color: darkcyan;
+    width: 220px;
+    padding: 15px;
+    color: #ffffff;
+    border-right: 7px solid orange;
+    border-left: 7px solid orange;
+    border-radius: 50px;
+    text-align: center;
+    margin-bottom: 15px;
+    margin-left: 45%;
+    font-size: 30px;
+    
+}
+.contact-header img{
+    width: 100px;
+    height: 80px;
+}
+.contact-header .img1{
+    float: left;
+    margin-right: 25px;
+    margin-left: 38%;
+    margin-top: -1%;
+}
+.contact-header .img2{
+    float: right;
+    margin-right: 25%;
+    margin-top: -8%;
+}
+.col-2{
+    width: 40%;
+    float: left;
+}
+.contact-us input{
+    width: 90%;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 35px;
+    font-size: 15px;
+    margin-bottom: 15px;
+}
+.contact-us textarea{
+    width: 100%;
+    display: inline-block;
+    padding: 0 15px;
+    line-height: 35px;
+    font-size: 15px;
+    margin-left: 15px;
+    min-height: 158px;
+}
+.btn{
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: rgb(11, 118, 144);
+    font-family: sans-serif;
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 5px;
+    color: rgb(255, 255, 255);
+    transition: all .50s;
+    cursor: pointer;
+    float: left;
+}
+.btn:hover{
+    background-color: #11caeb;
+}
+
+footer p{
+    text-align: center;
+    margin-top: -5%;
+}
+
+/* Responsive Design */
+
+@media screen and (max-width: 728px){
+    
+    .width{
+        width: 75%;
+        margin-bottom: 5%;
+    }
+    .single-ex{
+        height: 70%;
+    }
+    .dream-area{
+        background-size: 50px;
+    }
+}
